@@ -74,7 +74,7 @@ flowchart TD
     B --> C[⚙️ FastAPI Backend / Coordinator Agent]
     C --> D[🧠 Intent Classifier]
     D --> E[🔄 Workflow Engine]
-    E --> F[🛠️ Tool Router]
+    E --> F[🛠️ MCP Tool Router]
 
     F --> G[📘 Knowledge Tool]
     F --> H[💸 Investment Tool]
