@@ -2,9 +2,9 @@ from datetime import datetime, timedelta
 from jose import jwt, JWTError
 from passlib.context import CryptContext
 
-SECRET_KEY = "agex-super-secret-key"
-ALGORITHM = "HS256"
-ACCESS_TOKEN_EXPIRE_HOURS = 24
+SECRET_KEY = ""
+ALGORITHM = ""
+ACCESS_TOKEN_EXPIRE_HOURS = 
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
