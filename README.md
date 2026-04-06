@@ -68,12 +68,13 @@ AGEX is designed as a **GenAI workflow assistant**, not just a response bot.
 
 ## 🏗️ System Architecture
 
+```mermaid
 flowchart TD
     A[👤 User] --> B[💻 React Frontend]
     B --> C[⚙️ FastAPI Backend / Coordinator Agent]
     C --> D[🧠 Intent Classifier]
     D --> E[🔄 Workflow Engine]
-    E --> F[🛠️ MCP Tool Router]
+    E --> F[🛠️ Tool Router]
 
     F --> G[📘 Knowledge Tool]
     F --> H[💸 Investment Tool]
@@ -89,6 +90,7 @@ flowchart TD
 
     L --> M[💬 Final Conversational Response]
     M --> B
+```
 
 ## 🤖 Multi-Agent Design
 
